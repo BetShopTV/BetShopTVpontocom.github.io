@@ -143,6 +143,7 @@
       justify-content: space-between;
       max-width: 1224px;
       margin: 20px auto;
+      box-sizing: border-box; /* Adicionado */
       /* padding: foi removido anteriormente e não deve estar aqui */
       /* flex-wrap: wrap; foi removido e não deve estar aqui */
       /* gap: foi removido e não deve estar aqui */
@@ -154,12 +155,15 @@
       display: flex;
       flex-direction: column;
       width: 400px;
+      box-sizing: border-box; /* Adicionado */
     }
 
     .column img {
       width: 100%;
       height: auto;
       margin-bottom: 12px;
+      box-sizing: border-box; /* Adicionado */
+      display: block; /* Adicionado */
       /* box-shadow: none; /* Garantir que não haja, se herdado */
       /* border-radius: 0; /* Garantir que não haja, se herdado */
     }
